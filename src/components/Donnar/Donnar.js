@@ -1,8 +1,11 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDonate } from '@fortawesome/free-solid-svg-icons';
 import './Donnar.css';
 const Donnar = (props) => {
     console.log(props);
     const { name, donation, id, job, country, picture } = props.donnar;
+    const element = <FontAwesomeIcon icon={faDonate} />
     return (
         <div class="col">
             <div class="card h-100">
@@ -13,7 +16,7 @@ const Donnar = (props) => {
                     <p>ID Number: <span>{id}</span></p>
                     <p>Job: <span>{job}</span></p>
                     <p>Country: <span>{country}</span></p>
-                    <button onClick={() => props.handleDonateToCart(props.donnar)} class="btn btn-info"><span class="text-white">Donate Now</span></button>
+                    <button onClick={() => props.handleDonateToCart(props.donnar)} class="btn btn-info"><span class="text-white">{element} Donate Now</span></button>
                 </div>
             </div>
         </div>

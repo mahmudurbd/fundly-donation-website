@@ -19,7 +19,7 @@ const Donate = () => {
 
     return (
         <div className="donate-container">
-            <div className="donner-container" class="row row-cols-1 row-cols-md-3 g-4">
+            <div className="donner-container" class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4">
                 {
                     donnars.map(donnar => <Donnar
                         key={donnar.id}
