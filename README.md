@@ -1,6 +1,12 @@
 # Fundly || Donation Website - By React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with React [Live site](https://fundly.netlify.app/).
+
+## About Project
+### `It's Fund Donation Project`
+### `Calculation of Total Donation`
+### `Added Donnar in a list`
+
 
 ## Available Scripts
 
