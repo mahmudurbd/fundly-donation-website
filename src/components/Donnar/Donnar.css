@@ -1,0 +1,16 @@
+
+.col p{
+    font-weight: 700;
+}
+.card {
+    background-color: #59cae946;
+}
+.card-body h5 {
+    font-weight: 900;
+}
+.card-body span {
+    font-weight: 500;
+}
+.card-body button {
+    background-color: #12b9e7;
+}

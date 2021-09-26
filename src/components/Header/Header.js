@@ -30,7 +30,8 @@ const Header = () => {
             </nav>
             <div className="header-text">
                 <h1>Raise Money For Poor</h1>
-                <h4>Fundly is fast, easy, and has no raise requirements or start up fees.</h4>
+                <p>Fundly is fast, easy, and has no raise requirements or start up fees.</p>
+                <h2>Total Estimated Donation $100 Milion</h2>
             </div>
         </div>
     );
